@@ -7,7 +7,6 @@ from fake_useragent import UserAgent
 from link_mail import main as link_mail
 
 metamask_path = "~/.config/google-chrome/Default/Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn/12.0.0_0"
-x_token_login = "~/.config/google-chrome/Default/Extensions/lebmjgeajaflbnbggmpeibnpeonjlmgb/1.0.2_0"
         
 MM_PASSWORD = 'ggviva17k17'
 
@@ -26,10 +25,10 @@ async def main(seed,id):
                     'password': 'LG62T02Q'
                 },
                 args=[
-                     '--headless=new',
+                    # '--headless=new',
                     '--disable-blink-features=AutomationControlled',
-                    f"--disable-extensions-except={metamask_path},{x_token_login}",
-                    f"--load-extension={metamask_path},{x_token_login}",
+                    f"--disable-extensions-except={metamask_path}",
+                    f"--load-extension={metamask_path}",
                 ],
                 color_scheme="dark",)
           
