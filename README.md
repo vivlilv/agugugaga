@@ -8,7 +8,7 @@
   
   click on **'Pack extension'** and choose where to save on your PC(copy the path, you will need it)
   
-  next go to **'profile_launcher.py'** and in **MM_path variable** change path to yours.
+  next go to **'profile_launcher.py'** and in **metamask_path variable** change path to yours.
 -
 
 
